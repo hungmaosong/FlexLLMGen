@@ -1,0 +1,32 @@
+# FlexLLMGen OPT-6.7B no-offload max prompt length sweep
+# percent = 100 0 100 0 100 0 (weight/cache/activation all on GPU)
+# SUCCESS rows contain prompt_len and total_throughput_token_s.
+# CSV mirror: baseline_opt6.7b_max_length_data.csv
+
+[2026-05-01T22:56:50] prompt_len=512, gen_len=512, batch_size=1, status=SUCCESS, total_throughput_token_s=49.594, model_weight_gb=12.386, kv_cache_gb=0.500, activation_gb=0.008, stacked_vram_gb=12.894, peak_gpu_mem_gb=13.347, return_code=0, error_hint=
+command=/home/p76144095/.conda/envs/flexgen_cxl/bin/python3 -u -m flexllmgen.flex_opt --model facebook/opt-6.7b --path ~/opt_weights --offload-dir ~/flexllmgen_offload_dir --prompt-len 512 --gen-len 512 --gpu-batch-size 1 --num-gpu-batches 1 --percent 100 0 100 0 100 0 --log-file /home/p76144095/llm_thesis_workspace/FlexLLMGen/output_data/baseline_opt6.7b_flexllmgen_raw.log --verbose 1
+
+[2026-05-01T22:57:29] prompt_len=768, gen_len=512, batch_size=1, status=SUCCESS, total_throughput_token_s=48.523, model_weight_gb=12.386, kv_cache_gb=0.625, activation_gb=0.010, stacked_vram_gb=13.021, peak_gpu_mem_gb=13.521, return_code=0, error_hint=
+command=/home/p76144095/.conda/envs/flexgen_cxl/bin/python3 -u -m flexllmgen.flex_opt --model facebook/opt-6.7b --path ~/opt_weights --offload-dir ~/flexllmgen_offload_dir --prompt-len 768 --gen-len 512 --gpu-batch-size 1 --num-gpu-batches 1 --percent 100 0 100 0 100 0 --log-file /home/p76144095/llm_thesis_workspace/FlexLLMGen/output_data/baseline_opt6.7b_flexllmgen_raw.log --verbose 1
+
+[2026-05-01T22:57:49] prompt_len=1024, gen_len=512, batch_size=1, status=SUCCESS, total_throughput_token_s=48.320, model_weight_gb=12.386, kv_cache_gb=0.750, activation_gb=0.012, stacked_vram_gb=13.148, peak_gpu_mem_gb=13.711, return_code=0, error_hint=
+command=/home/p76144095/.conda/envs/flexgen_cxl/bin/python3 -u -m flexllmgen.flex_opt --model facebook/opt-6.7b --path ~/opt_weights --offload-dir ~/flexllmgen_offload_dir --prompt-len 1024 --gen-len 512 --gpu-batch-size 1 --num-gpu-batches 1 --percent 100 0 100 0 100 0 --log-file /home/p76144095/llm_thesis_workspace/FlexLLMGen/output_data/baseline_opt6.7b_flexllmgen_raw.log --verbose 1
+
+[2026-05-01T22:58:10] prompt_len=1280, gen_len=512, batch_size=1, status=SUCCESS, total_throughput_token_s=47.522, model_weight_gb=12.386, kv_cache_gb=0.875, activation_gb=0.014, stacked_vram_gb=13.275, peak_gpu_mem_gb=13.918, return_code=0, error_hint=
+command=/home/p76144095/.conda/envs/flexgen_cxl/bin/python3 -u -m flexllmgen.flex_opt --model facebook/opt-6.7b --path ~/opt_weights --offload-dir ~/flexllmgen_offload_dir --prompt-len 1280 --gen-len 512 --gpu-batch-size 1 --num-gpu-batches 1 --percent 100 0 100 0 100 0 --log-file /home/p76144095/llm_thesis_workspace/FlexLLMGen/output_data/baseline_opt6.7b_flexllmgen_raw.log --verbose 1
+
+[2026-05-01T22:58:31] prompt_len=1536, gen_len=512, batch_size=1, status=SUCCESS, total_throughput_token_s=46.862, model_weight_gb=12.386, kv_cache_gb=1.000, activation_gb=0.016, stacked_vram_gb=13.402, peak_gpu_mem_gb=14.139, return_code=0, error_hint=
+command=/home/p76144095/.conda/envs/flexgen_cxl/bin/python3 -u -m flexllmgen.flex_opt --model facebook/opt-6.7b --path ~/opt_weights --offload-dir ~/flexllmgen_offload_dir --prompt-len 1536 --gen-len 512 --gpu-batch-size 1 --num-gpu-batches 1 --percent 100 0 100 0 100 0 --log-file /home/p76144095/llm_thesis_workspace/FlexLLMGen/output_data/baseline_opt6.7b_flexllmgen_raw.log --verbose 1
+
+[2026-05-01T22:58:52] prompt_len=1792, gen_len=512, batch_size=1, status=SUCCESS, total_throughput_token_s=46.745, model_weight_gb=12.386, kv_cache_gb=1.125, activation_gb=0.018, stacked_vram_gb=13.529, peak_gpu_mem_gb=14.377, return_code=0, error_hint=
+command=/home/p76144095/.conda/envs/flexgen_cxl/bin/python3 -u -m flexllmgen.flex_opt --model facebook/opt-6.7b --path ~/opt_weights --offload-dir ~/flexllmgen_offload_dir --prompt-len 1792 --gen-len 512 --gpu-batch-size 1 --num-gpu-batches 1 --percent 100 0 100 0 100 0 --log-file /home/p76144095/llm_thesis_workspace/FlexLLMGen/output_data/baseline_opt6.7b_flexllmgen_raw.log --verbose 1
+
+[2026-05-01T22:59:13] prompt_len=2048, gen_len=512, batch_size=1, status=SUCCESS, total_throughput_token_s=46.431, model_weight_gb=12.386, kv_cache_gb=1.250, activation_gb=0.020, stacked_vram_gb=13.656, peak_gpu_mem_gb=14.631, return_code=0, error_hint=
+command=/home/p76144095/.conda/envs/flexgen_cxl/bin/python3 -u -m flexllmgen.flex_opt --model facebook/opt-6.7b --path ~/opt_weights --offload-dir ~/flexllmgen_offload_dir --prompt-len 2048 --gen-len 512 --gpu-batch-size 1 --num-gpu-batches 1 --percent 100 0 100 0 100 0 --log-file /home/p76144095/llm_thesis_workspace/FlexLLMGen/output_data/baseline_opt6.7b_flexllmgen_raw.log --verbose 1
+
+[2026-05-01T22:59:34] prompt_len=2304, gen_len=512, batch_size=1, status=SUCCESS, total_throughput_token_s=45.570, model_weight_gb=12.386, kv_cache_gb=1.375, activation_gb=0.021, stacked_vram_gb=13.782, peak_gpu_mem_gb=14.900, return_code=0, error_hint=
+command=/home/p76144095/.conda/envs/flexgen_cxl/bin/python3 -u -m flexllmgen.flex_opt --model facebook/opt-6.7b --path ~/opt_weights --offload-dir ~/flexllmgen_offload_dir --prompt-len 2304 --gen-len 512 --gpu-batch-size 1 --num-gpu-batches 1 --percent 100 0 100 0 100 0 --log-file /home/p76144095/llm_thesis_workspace/FlexLLMGen/output_data/baseline_opt6.7b_flexllmgen_raw.log --verbose 1
+
+[2026-05-01T22:59:44] prompt_len=2560, gen_len=512, batch_size=1, status=OOM, total_throughput_token_s=NA, model_weight_gb=NA, kv_cache_gb=NA, activation_gb=NA, stacked_vram_gb=NA, peak_gpu_mem_gb=NA, return_code=1, error_hint=CUDA out of memory detected
+command=/home/p76144095/.conda/envs/flexgen_cxl/bin/python3 -u -m flexllmgen.flex_opt --model facebook/opt-6.7b --path ~/opt_weights --offload-dir ~/flexllmgen_offload_dir --prompt-len 2560 --gen-len 512 --gpu-batch-size 1 --num-gpu-batches 1 --percent 100 0 100 0 100 0 --log-file /home/p76144095/llm_thesis_workspace/FlexLLMGen/output_data/baseline_opt6.7b_flexllmgen_raw.log --verbose 1
+

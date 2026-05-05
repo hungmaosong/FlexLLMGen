@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1215" height="820" viewBox="0 0 1215 820">
+<rect width="100%" height="100%" fill="white"/>
+<text x="607.5" y="34.0" font-size="21" font-family="Arial, sans-serif" text-anchor="middle" font-weight="bold" fill="#1d1d1f">OPT-6.7B Baseline VRAM Usage</text>
+<text x="607.5" y="58.0" font-size="12" font-family="Arial, sans-serif" text-anchor="middle" font-weight="normal" fill="#4a5568">No offload: weights, KV cache, and activations are kept on GPU</text>
+<line x1="88" y1="532.0" x2="1181" y2="532.0" stroke="#d7dde2" stroke-width="1" stroke-dasharray="4 4"/>
+<text x="76.0" y="536.0" font-size="11" font-family="Arial, sans-serif" text-anchor="end" font-weight="normal" fill="#4a5568">0</text>
+<line x1="88" y1="488.0" x2="1181" y2="488.0" stroke="#d7dde2" stroke-width="1" stroke-dasharray="4 4"/>
+<text x="76.0" y="492.0" font-size="11" font-family="Arial, sans-serif" text-anchor="end" font-weight="normal" fill="#4a5568">2</text>
+<line x1="88" y1="444.0" x2="1181" y2="444.0" stroke="#d7dde2" stroke-width="1" stroke-dasharray="4 4"/>
+<text x="76.0" y="448.0" font-size="11" font-family="Arial, sans-serif" text-anchor="end" font-weight="normal" fill="#4a5568">4</text>
+<line x1="88" y1="400.0" x2="1181" y2="400.0" stroke="#d7dde2" stroke-width="1" stroke-dasharray="4 4"/>
+<text x="76.0" y="404.0" font-size="11" font-family="Arial, sans-serif" text-anchor="end" font-weight="normal" fill="#4a5568">6</text>
+<line x1="88" y1="356.0" x2="1181" y2="356.0" stroke="#d7dde2" stroke-width="1" stroke-dasharray="4 4"/>
+<text x="76.0" y="360.0" font-size="11" font-family="Arial, sans-serif" text-anchor="end" font-weight="normal" fill="#4a5568">8</text>
+<line x1="88" y1="312.0" x2="1181" y2="312.0" stroke="#d7dde2" stroke-width="1" stroke-dasharray="4 4"/>
+<text x="76.0" y="316.0" font-size="11" font-family="Arial, sans-serif" text-anchor="end" font-weight="normal" fill="#4a5568">10</text>
+<line x1="88" y1="268.0" x2="1181" y2="268.0" stroke="#d7dde2" stroke-width="1" stroke-dasharray="4 4"/>
+<text x="76.0" y="272.0" font-size="11" font-family="Arial, sans-serif" text-anchor="end" font-weight="normal" fill="#4a5568">12</text>
+<line x1="88" y1="224.0" x2="1181" y2="224.0" stroke="#d7dde2" stroke-width="1" stroke-dasharray="4 4"/>
+<text x="76.0" y="228.0" font-size="11" font-family="Arial, sans-serif" text-anchor="end" font-weight="normal" fill="#4a5568">14</text>
+<line x1="88" y1="180.0" x2="1181" y2="180.0" stroke="#d7dde2" stroke-width="1" stroke-dasharray="4 4"/>
+<text x="76.0" y="184.0" font-size="11" font-family="Arial, sans-serif" text-anchor="end" font-weight="normal" fill="#4a5568">16</text>
+<line x1="88" y1="136.0" x2="1181" y2="136.0" stroke="#d7dde2" stroke-width="1" stroke-dasharray="4 4"/>
+<text x="76.0" y="140.0" font-size="11" font-family="Arial, sans-serif" text-anchor="end" font-weight="normal" fill="#4a5568">18</text>
+<line x1="88" y1="92.0" x2="1181" y2="92.0" stroke="#d7dde2" stroke-width="1" stroke-dasharray="4 4"/>
+<text x="76.0" y="96.0" font-size="11" font-family="Arial, sans-serif" text-anchor="end" font-weight="normal" fill="#4a5568">20</text>
+<line x1="88" y1="92" x2="88" y2="532" stroke="#1d1d1f" stroke-width="1.4"/>
+<line x1="88" y1="532" x2="1181" y2="532" stroke="#1d1d1f" stroke-width="1.4"/>
+<rect x="117.7" y="259.5" width="62.0" height="272.5" fill="#264653" stroke="white" stroke-width="0.8"/>
+<rect x="117.7" y="248.5" width="62.0" height="11.0" fill="#2a9d8f" stroke="white" stroke-width="0.8"/>
+<rect x="117.7" y="248.3" width="62.0" height="0.2" fill="#e9c46a" stroke="white" stroke-width="0.8"/>
+<text x="148.7" y="230.4" font-size="10" font-family="Arial, sans-serif" text-anchor="middle" font-weight="normal" fill="#1d1d1f">13.35 GB</text>
+<rect x="239.2" y="259.5" width="62.0" height="272.5" fill="#264653" stroke="white" stroke-width="0.8"/>
+<rect x="239.2" y="245.8" width="62.0" height="13.8" fill="#2a9d8f" stroke="white" stroke-width="0.8"/>
+<rect x="239.2" y="245.5" width="62.0" height="0.2" fill="#e9c46a" stroke="white" stroke-width="0.8"/>
+<text x="270.2" y="226.5" font-size="10" font-family="Arial, sans-serif" text-anchor="middle" font-weight="normal" fill="#1d1d1f">13.52 GB</text>
+<rect x="360.6" y="259.5" width="62.0" height="272.5" fill="#264653" stroke="white" stroke-width="0.8"/>
+<rect x="360.6" y="243.0" width="62.0" height="16.5" fill="#2a9d8f" stroke="white" stroke-width="0.8"/>
+<rect x="360.6" y="242.7" width="62.0" height="0.3" fill="#e9c46a" stroke="white" stroke-width="0.8"/>
+<text x="391.6" y="222.4" font-size="10" font-family="Arial, sans-serif" text-anchor="middle" font-weight="normal" fill="#1d1d1f">13.71 GB</text>
+<rect x="482.1" y="259.5" width="62.0" height="272.5" fill="#264653" stroke="white" stroke-width="0.8"/>
+<rect x="482.1" y="240.3" width="62.0" height="19.2" fill="#2a9d8f" stroke="white" stroke-width="0.8"/>
+<rect x="482.1" y="240.0" width="62.0" height="0.3" fill="#e9c46a" stroke="white" stroke-width="0.8"/>
+<text x="513.1" y="217.8" font-size="10" font-family="Arial, sans-serif" text-anchor="middle" font-weight="normal" fill="#1d1d1f">13.92 GB</text>
+<rect x="603.5" y="259.5" width="62.0" height="272.5" fill="#264653" stroke="white" stroke-width="0.8"/>
+<rect x="603.5" y="237.5" width="62.0" height="22.0" fill="#2a9d8f" stroke="white" stroke-width="0.8"/>
+<rect x="603.5" y="237.2" width="62.0" height="0.4" fill="#e9c46a" stroke="white" stroke-width="0.8"/>
+<text x="634.5" y="212.9" font-size="10" font-family="Arial, sans-serif" text-anchor="middle" font-weight="normal" fill="#1d1d1f">14.14 GB</text>
+<rect x="724.9" y="259.5" width="62.0" height="272.5" fill="#264653" stroke="white" stroke-width="0.8"/>
+<rect x="724.9" y="234.8" width="62.0" height="24.8" fill="#2a9d8f" stroke="white" stroke-width="0.8"/>
+<rect x="724.9" y="234.4" width="62.0" height="0.4" fill="#e9c46a" stroke="white" stroke-width="0.8"/>
+<text x="755.9" y="207.7" font-size="10" font-family="Arial, sans-serif" text-anchor="middle" font-weight="normal" fill="#1d1d1f">14.38 GB</text>
+<rect x="846.4" y="259.5" width="62.0" height="272.5" fill="#264653" stroke="white" stroke-width="0.8"/>
+<rect x="846.4" y="232.0" width="62.0" height="27.5" fill="#2a9d8f" stroke="white" stroke-width="0.8"/>
+<rect x="846.4" y="231.6" width="62.0" height="0.4" fill="#e9c46a" stroke="white" stroke-width="0.8"/>
+<text x="877.4" y="202.1" font-size="10" font-family="Arial, sans-serif" text-anchor="middle" font-weight="normal" fill="#1d1d1f">14.63 GB</text>
+<rect x="967.8" y="259.5" width="62.0" height="272.5" fill="#264653" stroke="white" stroke-width="0.8"/>
+<rect x="967.8" y="229.3" width="62.0" height="30.3" fill="#2a9d8f" stroke="white" stroke-width="0.8"/>
+<rect x="967.8" y="228.8" width="62.0" height="0.5" fill="#e9c46a" stroke="white" stroke-width="0.8"/>
+<text x="998.8" y="196.2" font-size="10" font-family="Arial, sans-serif" text-anchor="middle" font-weight="normal" fill="#1d1d1f">14.90 GB</text>
+<polyline points="148.7,238.4 270.2,234.5 391.6,230.4 513.1,225.8 634.5,220.9 755.9,215.7 877.4,210.1 998.8,204.2" fill="none" stroke="#1d1d1f" stroke-width="2.4"/>
+<circle cx="148.7" cy="238.4" r="4.2" fill="#1d1d1f"/>
+<circle cx="270.2" cy="234.5" r="4.2" fill="#1d1d1f"/>
+<circle cx="391.6" cy="230.4" r="4.2" fill="#1d1d1f"/>
+<circle cx="513.1" cy="225.8" r="4.2" fill="#1d1d1f"/>
+<circle cx="634.5" cy="220.9" r="4.2" fill="#1d1d1f"/>
+<circle cx="755.9" cy="215.7" r="4.2" fill="#1d1d1f"/>
+<circle cx="877.4" cy="210.1" r="4.2" fill="#1d1d1f"/>
+<circle cx="998.8" cy="204.2" r="4.2" fill="#1d1d1f"/>
+<line x1="88" y1="180.0" x2="1181" y2="180.0" stroke="#c1121f" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="1175.0" y="172.0" font-size="11" font-family="Arial, sans-serif" text-anchor="end" font-weight="bold" fill="#c1121f">16 GB limit</text>
+<line x1="1111.2777777777778" y1="171.0" x2="1129.2777777777778" y2="189.0" stroke="#c1121f" stroke-width="4"/>
+<line x1="1129.2777777777778" y1="171.0" x2="1111.2777777777778" y2="189.0" stroke="#c1121f" stroke-width="4"/>
+<text x="1120.3" y="162.0" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" font-weight="bold" fill="#c1121f">OOM</text>
+<text x="607.5" y="562.0" font-size="13" font-family="Arial, sans-serif" text-anchor="middle" font-weight="bold" fill="#1d1d1f">Activation Zoom</text>
+<line x1="88" y1="668.0" x2="1181" y2="668.0" stroke="#d7dde2" stroke-width="1" stroke-dasharray="4 4"/>
+<text x="76.0" y="672.0" font-size="10" font-family="Arial, sans-serif" text-anchor="end" font-weight="normal" fill="#4a5568">0</text>
+<line x1="88" y1="624.0" x2="1181" y2="624.0" stroke="#d7dde2" stroke-width="1" stroke-dasharray="4 4"/>
+<text x="76.0" y="628.0" font-size="10" font-family="Arial, sans-serif" text-anchor="end" font-weight="normal" fill="#4a5568">16</text>
+<line x1="88" y1="580.0" x2="1181" y2="580.0" stroke="#d7dde2" stroke-width="1" stroke-dasharray="4 4"/>
+<text x="76.0" y="584.0" font-size="10" font-family="Arial, sans-serif" text-anchor="end" font-weight="normal" fill="#4a5568">32</text>
+<line x1="88" y1="580" x2="88" y2="668" stroke="#1d1d1f" stroke-width="1.2"/>
+<line x1="88" y1="668" x2="1181" y2="668" stroke="#1d1d1f" stroke-width="1.2"/>
+<rect x="117.7" y="645.5" width="62.0" height="22.5" fill="#e9c46a" stroke="white" stroke-width="0.8"/>
+<text x="148.7" y="640.5" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" font-weight="normal" fill="#1d1d1f">8.2</text>
+<text x="148.7" y="692.0" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" font-weight="normal" fill="#1d1d1f">512</text>
+<rect x="239.2" y="639.8" width="62.0" height="28.2" fill="#e9c46a" stroke="white" stroke-width="0.8"/>
+<text x="270.2" y="634.8" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" font-weight="normal" fill="#1d1d1f">10.2</text>
+<text x="270.2" y="692.0" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" font-weight="normal" fill="#1d1d1f">768</text>
+<rect x="360.6" y="634.2" width="62.0" height="33.8" fill="#e9c46a" stroke="white" stroke-width="0.8"/>
+<text x="391.6" y="629.2" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" font-weight="normal" fill="#1d1d1f">12.3</text>
+<text x="391.6" y="692.0" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" font-weight="normal" fill="#1d1d1f">1024</text>
+<rect x="482.1" y="628.6" width="62.0" height="39.4" fill="#e9c46a" stroke="white" stroke-width="0.8"/>
+<text x="513.1" y="623.6" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" font-weight="normal" fill="#1d1d1f">14.3</text>
+<text x="513.1" y="692.0" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" font-weight="normal" fill="#1d1d1f">1280</text>
+<rect x="603.5" y="622.9" width="62.0" height="45.1" fill="#e9c46a" stroke="white" stroke-width="0.8"/>
+<text x="634.5" y="617.9" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" font-weight="normal" fill="#1d1d1f">16.4</text>
+<text x="634.5" y="692.0" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" font-weight="normal" fill="#1d1d1f">1536</text>
+<rect x="724.9" y="617.3" width="62.0" height="50.7" fill="#e9c46a" stroke="white" stroke-width="0.8"/>
+<text x="755.9" y="612.3" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" font-weight="normal" fill="#1d1d1f">18.4</text>
+<text x="755.9" y="692.0" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" font-weight="normal" fill="#1d1d1f">1792</text>
+<rect x="846.4" y="611.7" width="62.0" height="56.3" fill="#e9c46a" stroke="white" stroke-width="0.8"/>
+<text x="877.4" y="606.7" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" font-weight="normal" fill="#1d1d1f">20.5</text>
+<text x="877.4" y="692.0" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" font-weight="normal" fill="#1d1d1f">2048</text>
+<rect x="967.8" y="608.9" width="62.0" height="59.1" fill="#e9c46a" stroke="white" stroke-width="0.8"/>
+<text x="998.8" y="603.9" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" font-weight="normal" fill="#1d1d1f">21.5</text>
+<text x="998.8" y="692.0" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" font-weight="normal" fill="#1d1d1f">2304</text>
+<text x="1120.3" y="625.8" font-size="10" font-family="Arial, sans-serif" text-anchor="middle" font-weight="bold" fill="#c1121f">OOM</text>
+<text x="1120.3" y="690.0" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" font-weight="normal" fill="#c1121f">2560</text>
+<text x="1120.3" y="707.0" font-size="10" font-family="Arial, sans-serif" text-anchor="middle" font-weight="bold" fill="#c1121f">OOM</text>
+<text x="607.5" y="792.0" font-size="13" font-family="Arial, sans-serif" text-anchor="middle" font-weight="bold" fill="#1d1d1f">Context Length / Prompt Length (tokens)</text>
+<text x="22.0" y="312.0" font-size="13" font-family="Arial, sans-serif" text-anchor="middle" font-weight="bold" fill="#1d1d1f" transform="rotate(-90.0 22.0 312.0)">VRAM Usage (GB)</text>
+<text x="42.0" y="624.0" font-size="12" font-family="Arial, sans-serif" text-anchor="middle" font-weight="bold" fill="#1d1d1f" transform="rotate(-90.0 42.0 624.0)">Activation (MB)</text>
+<rect x="98.0" y="57.0" width="15" height="11" fill="#264653"/>
+<text x="121.0" y="68.0" font-size="11" font-family="Arial, sans-serif" text-anchor="start" font-weight="normal" fill="#1d1d1f">Model Weight</text>
+<rect x="225.0" y="57.0" width="15" height="11" fill="#2a9d8f"/>
+<text x="248.0" y="68.0" font-size="11" font-family="Arial, sans-serif" text-anchor="start" font-weight="normal" fill="#1d1d1f">KV Cache</text>
+<rect x="324.0" y="57.0" width="15" height="11" fill="#e9c46a"/>
+<text x="347.0" y="68.0" font-size="11" font-family="Arial, sans-serif" text-anchor="start" font-weight="normal" fill="#1d1d1f">Activation</text>
+<line x1="437.0" y1="63.0" x2="455.0" y2="63.0" stroke="#1d1d1f" stroke-width="2.4"/>
+<circle cx="446.0" cy="63.0" r="3.6" fill="#1d1d1f"/>
+<text x="460.0" y="68.0" font-size="11" font-family="Arial, sans-serif" text-anchor="start" font-weight="normal" fill="#1d1d1f">Peak GPU Memory</text>
+<line x1="585.0" y1="63.0" x2="603.0" y2="63.0" stroke="#c1121f" stroke-width="2" stroke-dasharray="5 4"/>
+<text x="608.0" y="68.0" font-size="11" font-family="Arial, sans-serif" text-anchor="start" font-weight="normal" fill="#1d1d1f">VRAM Limit (16 GB)</text>
+<line x1="754.0" y1="56.0" x2="770.0" y2="72.0" stroke="#c1121f" stroke-width="3"/>
+<line x1="770.0" y1="56.0" x2="754.0" y2="72.0" stroke="#c1121f" stroke-width="3"/>
+<text x="777.0" y="68.0" font-size="11" font-family="Arial, sans-serif" text-anchor="start" font-weight="normal" fill="#1d1d1f">OOM / Failed Run</text>
+</svg>
